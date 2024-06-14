@@ -1,0 +1,17 @@
+.modoclarooscuro {
+    position:fixed;
+    width:40px;
+    height:40px;
+    top:20px;
+    right:20px;
+    z-index:100;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modoclarooscuro:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
